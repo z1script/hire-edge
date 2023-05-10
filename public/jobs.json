@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Software Engineer",
-    "company": "Acme Software",
-    "img": "https://example.com/acme.png",
+    "company": "Google",
+    "img": "https://i.ibb.co/Z2zPszG/google-1-1-1-1.png",
     "location": "San Francisco, CA",
     "salary": "$120,000 - $150,000",
     "workplace": "OnSite",
@@ -28,11 +28,12 @@
       "address": "123 Main St, San Francisco, CA"
     }
   },
+
   {
     "id": 2,
     "title": "Data Scientist",
-    "company": "Data Co.",
-    "img": "https://example.com/data.png",
+    "company": "Tesla",
+    "img": "https://i.ibb.co/s35SMwZ/tesla-9-1.png",
     "location": "New York, NY",
     "salary": "$110,000 - $140,000",
     "workplace": "Remote",
@@ -60,8 +61,8 @@
   {
     "id": 3,
     "title": "Product Manager",
-    "company": "XYZ Products",
-    "img": "https://example.com/xyz.png",
+    "company": "Netflix",
+    "img": "https://i.ibb.co/bsFC25d/netflix-4-1.png",
     "location": "Seattle, WA",
     "salary": "$100,000 - $130,000",
     "workplace": "Remote",
@@ -89,8 +90,8 @@
   {
     "id": 4,
     "title": "Marketing Manager",
-    "company": "ABC Corporation",
-    "img": "https://example.com/abc.png",
+    "company": "AirBnb",
+    "img": "https://i.ibb.co/fkR9wHs/Group-10021.png",
     "location": "Chicago, IL",
     "salary": "$90,000 - $120,000",
     "workplace": "OnSite",
@@ -118,8 +119,8 @@
   {
     "id": 5,
     "title": "Graphic Designer",
-    "company": "Design Co.",
-    "img": "https://example.com/design.png",
+    "company": "Google",
+    "img": "https://i.ibb.co/Z2zPszG/google-1-1-1-1.png",
     "location": "Los Angeles, CA",
     "salary": "$70,000 - $90,000",
     "workplace": "Remote",
@@ -147,8 +148,8 @@
   {
     "id": 6,
     "title": "Support Specialist",
-    "company": "Support Co.",
-    "img": "https://example.com/support.png",
+    "company": "Netflix",
+    "img": "https://i.ibb.co/bsFC25d/netflix-4-1.png",
     "location": "Austin, TX",
     "salary": "$40,000 - $50,000",
     "workplace": "OnSite",

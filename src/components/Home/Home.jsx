@@ -5,7 +5,6 @@ import Jobs from "../Jobs/Jobs";
 
 const Home = () => {
   const categories = useLoaderData();
-  console.log(categories);
   return (
     <>
       <header className="flex items-center">
