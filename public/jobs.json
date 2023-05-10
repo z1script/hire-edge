@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Acme Software",
+    "img": "https://example.com/acme.png",
+    "location": "San Francisco, CA",
+    "salary": "$120,000 - $150,000",
+    "workplace": "OnSite",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented software engineer to help us develop and maintain cutting-edge software applications.",
+    "requirements": [
+      "5+ years of experience in software development",
+      "Expertise in programming languages like Java, Python, or C++",
+      "Experience with software development tools like Git, Jenkins, or Jira",
+      "Strong problem-solving and debugging skills"
+    ],
+    "experience": "5+ years",
+    "jobResponsibility": [
+      "Design, develop, and maintain software applications",
+      "Write high-quality, clean, and maintainable code",
+      "Collaborate with cross-functional teams to ensure project success",
+      "Stay up-to-date with emerging trends and technologies in software development"
+    ],
+    "contactInfo": {
+      "phone": "555-1234",
+      "email": "jobs@acmesoftware.com",
+      "address": "123 Main St, San Francisco, CA"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "company": "Data Co.",
+    "img": "https://example.com/data.png",
+    "location": "New York, NY",
+    "salary": "$110,000 - $140,000",
+    "workplace": "Remote",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented data scientist to help us analyze and interpret complex data sets.",
+    "requirements": [
+      "3+ years of experience in data science or a related field",
+      "Expertise in programming languages like Python, R, or SQL",
+      "Experience with data analysis tools like Tableau or Power BI",
+      "Strong problem-solving and analytical skills"
+    ],
+    "experience": "3+ years",
+    "jobResponsibility": [
+      "Analyze and interpret complex data sets",
+      "Develop statistical models and machine learning algorithms",
+      "Collaborate with cross-functional teams to ensure project success",
+      "Communicate data insights and findings to stakeholders"
+    ],
+    "contactInfo": {
+      "phone": "555-5678",
+      "email": "jobs@dataco.com",
+      "address": "456 Oak St, New York, NY"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Product Manager",
+    "company": "XYZ Products",
+    "img": "https://example.com/xyz.png",
+    "location": "Seattle, WA",
+    "salary": "$100,000 - $130,000",
+    "workplace": "Remote",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented product manager to help us develop and launch new products and features.",
+    "requirements": [
+      "5+ years of experience in product management or a related field",
+      "Experience with agile development methodologies",
+      "Strong project management skills",
+      "Excellent communication and leadership skills"
+    ],
+    "experience": "5+ years",
+    "jobResponsibility": [
+      "Develop and launch new products and features",
+      "Define and prioritize product roadmap and backlog",
+      "Collaborate with cross-functional teams to ensure project success",
+      "Gather and analyze customer feedback to inform product decisions"
+    ],
+    "contactInfo": {
+      "phone": "555-9012",
+      "email": "jobs@xyzproducts.com",
+      "address": "789 Elm St, Seattle, WA"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Marketing Manager",
+    "company": "ABC Corporation",
+    "img": "https://example.com/abc.png",
+    "location": "Chicago, IL",
+    "salary": "$90,000 - $120,000",
+    "workplace": "OnSite",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented marketing manager to help us develop and execute marketing strategies that drive business growth.",
+    "requirements": [
+      "5+ years of experience in marketing or a related field",
+      "Expertise in digital marketing channels like email, social media, and search",
+      "Strong analytical and problem-solving skills",
+      "Excellent communication and collaboration skills"
+    ],
+    "experience": "5+ years",
+    "jobResponsibility": [
+      "Develop and execute marketing strategies that drive business growth",
+      "Define and measure marketing metrics to ensure success",
+      "Collaborate with cross-functional teams to ensure project success",
+      "Stay up-to-date with emerging trends and technologies in marketing"
+    ],
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@abccorp.com",
+      "address": "321 Maple St, Chicago, IL"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Graphic Designer",
+    "company": "Design Co.",
+    "img": "https://example.com/design.png",
+    "location": "Los Angeles, CA",
+    "salary": "$70,000 - $90,000",
+    "workplace": "Remote",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented graphic designer to help us create visually appealing designs for our clients.",
+    "requirements": [
+      "3+ years of experience in graphic design or a related field",
+      "Expertise in graphic design software like Adobe Creative Suite",
+      "Strong understanding of design principles and trends",
+      "Excellent communication and collaboration skills"
+    ],
+    "experience": "3+ years",
+    "jobResponsibility": [
+      "Create visually appealing designs for our clients",
+      "Collaborate with cross-functional teams to ensure project success",
+      "Revise designs based on feedback from clients and team members",
+      "Stay up-to-date with emerging trends and technologies in graphic design"
+    ],
+    "contactInfo": {
+      "phone": "555-7890",
+      "email": "jobs@designco.com",
+      "address": "654 Oak St, Los Angeles, CA"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Support Specialist",
+    "company": "Support Co.",
+    "img": "https://example.com/support.png",
+    "location": "Austin, TX",
+    "salary": "$40,000 - $50,000",
+    "workplace": "OnSite",
+    "jobType": "Full-Time",
+    "description": "We are seeking a talented customer support specialist to help us provide excellent customer service to our clients.",
+    "requirements": [
+      "1+ years of experience in customer service or a related field",
+      "Strong communication and problem-solving skills",
+      "Ability to work in a fast-paced and dynamic environment",
+      "Customer-oriented mindset"
+    ],
+    "experience": "1+ years",
+    "jobResponsibility": [
+      "Provide excellent customer service to our clients",
+      "Resolve customer issues and complaints in a timely manner",
+      "Collaborate with cross-functional teams to ensure customer success",
+      "Maintain accurate records of customer interactions and transactions"
+    ],
+    "contactInfo": {
+      "phone": "555-2345",
+      "email": "jobs@supportco.com",
+      "address": "987 Elm St, Austin, TX"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Software Developer",
+    "available_jobs": 100,
+    "logo": "https://i.ibb.co/6g2Cjdc/chip-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Account & Finance",
+    "available_jobs": 50,
+    "logo": "https://i.ibb.co/BtgFwY4/accounts-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Marketing & Sales",
+    "available_jobs": 80,
+    "logo": "https://i.ibb.co/mt1SMWP/social-media-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Graphic Designer",
+    "available_jobs": 77,
+    "logo": "https://i.ibb.co/QbL8Ctc/business-1.png"
+  }
+]
