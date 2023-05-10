@@ -1,6 +1,11 @@
 import React from "react";
+import {useLoaderData} from "react-router-dom";
+import JobCategories from "../JobCategories/JobCategories";
+import Jobs from "../Jobs/Jobs";
 
 const Home = () => {
+  const categories = useLoaderData();
+  console.log(categories);
   return (
     <>
       <header className="flex items-center">
@@ -18,6 +23,8 @@ const Home = () => {
         </div>
         <img src="/src/assets/hero.png" alt="" />
       </header>
+      <JobCategories categories={categories}></JobCategories>
+      <Jobs />
     </>
   );
 };
