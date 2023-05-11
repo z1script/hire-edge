@@ -5,32 +5,36 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import App from "./App";
 import Home from "./components/Home/Home";
 import JobDetail from "./components/JobDetail/JobDetail";
+import Statistics from "./components/Statistics/Statistics";
+import Blog from "./components/Blog/Blog";
+import ErrorPage from "./ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
+        loader: () => fetch("/jobs.json"),
       },
       {
         path: "/job/:jobId",
         element: <JobDetail />,
-        loader: () => fetch("/jobs.json"),
       },
       {
         path: "/statistics",
-        element: <></>,
+        element: <Statistics />,
       },
       {
         path: "/applied-jobs",
         element: <></>,
       },
       {
-        path: "/blogs",
-        element: <></>,
+        path: "/blog",
+        element: <Blog />,
       },
     ],
   },

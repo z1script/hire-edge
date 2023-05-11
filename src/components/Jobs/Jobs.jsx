@@ -1,16 +1,10 @@
 import React, {useEffect, useState} from "react";
 import Job from "../Job/Job";
+import {useLoaderData} from "react-router-dom";
 
 const Jobs = () => {
-  const [jobs, setJobs] = useState([]);
+  const jobs = useLoaderData();
   const [showAll, setShowAll] = useState(false);
-
-  useEffect(() => {
-    fetch("/jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobs(data));
-  }, []);
-
   const handleClick = () => {
     setShowAll(true);
   };
