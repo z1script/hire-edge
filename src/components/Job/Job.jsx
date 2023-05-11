@@ -12,11 +12,13 @@ const Job = ({job}) => {
         <h4 className="text-xl opacity-90 mb-3">{company}</h4>
         <button className="btn-secondary">{workplace}</button>{" "}
         <button className="btn-secondary">{jobType}</button>
-        <p className="flex my-3">
-          <img src="/src/assets/Icons/Frame-4.png" alt="" />
+        <p className="lg:flex my-3">
+          <img className="inline" src="Icons/Frame-4.png" alt="" />
           {location}{" "}
-          <img className="ms-3" src="/src/assets/Icons/Frame.png" alt="" />{" "}
-          Salary: {salary}
+          <span className="">
+            <img className="lg:ms-3 inline" src="Icons/Frame.png" alt="" />{" "}
+            Salary: {salary}
+          </span>
         </p>
         <JobContext.Provider value={job[id]} />
         <button className="btn-primary">

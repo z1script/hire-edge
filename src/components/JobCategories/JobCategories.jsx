@@ -17,7 +17,7 @@ const JobCategories = () => {
           need. Its your future
         </p>
       </div>
-      <div className="flex justify-between gap-5 my-10">
+      <div className="lg:flex  justify-between gap-5 my-10">
         {categories.map((category) => (
           <JobCategory key={category.id} category={category}></JobCategory>
         ))}

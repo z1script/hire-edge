@@ -18,7 +18,7 @@ const Jobs = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-5 my-16">
+      <div className="grid  lg:grid-cols-2 gap-5 my-16">
         {jobs.slice(0, showAll ? jobs.length : 4).map((job) => (
           <Job key={job.id} job={job} />
         ))}

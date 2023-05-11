@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <header className="flex items-center">
+      <header className="lg:flex items-center">
         <div className="space-y-6">
           <h1 className="text-6xl">
             One Step Closer To Your{" "}
@@ -16,7 +16,7 @@ const Header = () => {
           </p>
           <button className="btn-primary">Get Started</button>
         </div>
-        <img src="/src/assets/hero.png" alt="" />
+        <img src="/hero.png" alt="" />
       </header>
     </div>
   );
