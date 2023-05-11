@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import JobCategory from "../JobCategory/JobCategory";
 
-const JobCategories = ({categories}) => {
+const JobCategories = () => {
+  const [categories, setCategories] = useState([]);
+  useEffect(() => {
+    fetch("/categories.json")
+      .then((res) => res.json())
+      .then((data) => setCategories(data));
+  });
   return (
     <>
       <div className="text-center mt-24 space-y-5">
