@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import Job from "../Job/Job";
 import {useLoaderData} from "react-router-dom";
 
@@ -12,7 +12,7 @@ const Jobs = () => {
   return (
     <>
       <div className="text-center mt-24 space-y-5">
-        <h2 className="text-5xl">Featured Jobs</h2>
+        <h2 className="lg:text-5xl text-4xl">Featured Jobs</h2>
         <p>
           Explore thousands of job opportunities with all the information you
           need. Its your future

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const Job = ({job}) => {
   const {id, img, title, company, salary, location, workplace, jobType} = job;
-  const JobContext = React.createContext();
+
   return (
     <div className="border p-5 rounded-lg">
       <div className="ps-2 pb-2">
@@ -20,8 +20,7 @@ const Job = ({job}) => {
             Salary: {salary}
           </span>
         </p>
-        <JobContext.Provider value={job[id]} />
-        <button className="btn-primary">
+        <button onClick={() => console.log(job)} className="btn-primary">
           <Link to={`/job/${id}`}>View Details</Link>
         </button>
       </div>

@@ -9,3 +9,7 @@
 .btn-secondary {
   @apply bg-transparent text-purple-700 py-2 px-4 border border-[#9873FF] rounded;
 }
+
+.hamburger {
+  height: 1.5rem;
+}
