@@ -5,7 +5,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="flex items-center justify-between flex-wrap p-6">
+      <nav className="flex items-center justify-between flex-wrap my-8 mb-12">
         <div className="flex items-center flex-shrink-0 mr-6 lg:mr-72">
           <span className="text-3xl font-semibold">HireEdge</span>
         </div>

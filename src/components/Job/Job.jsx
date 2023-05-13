@@ -20,7 +20,7 @@ const Job = ({job}) => {
             Salary: {salary}
           </span>
         </p>
-        <button onClick={() => console.log(job)} className="btn-primary">
+        <button className="btn-primary">
           <Link to={`/job/${id}`}>View Details</Link>
         </button>
       </div>
