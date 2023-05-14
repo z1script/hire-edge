@@ -1,12 +1,13 @@
 import React, {useState} from "react";
 import {useEffect} from "react";
 import {useParams} from "react-router-dom";
+import {addToDb} from "../../utilities/fakedb";
 
 const JobDetail = () => {
   const {jobId} = useParams();
   const jobDetailId = parseInt(jobId);
-
   const [jobs, setJobs] = useState([]);
+
   useEffect(() => {
     fetch("/jobs.json")
       .then((res) => res.json())
@@ -15,9 +16,12 @@ const JobDetail = () => {
 
   const job = jobs.find((element) => element.id === jobDetailId);
 
+  const addToAppliedJobs = (job) => {
+    addToDb(id);
+  };
   const {
+    id,
     title,
-    company,
     salary,
     contactInfo,
     description,
@@ -28,7 +32,7 @@ const JobDetail = () => {
 
   return (
     <>
-      <h1 className="text-center text-3xl mt-8 mb-16">Job Details</h1>
+      <h1 className="text-center text-3xl mt-8 mb-16 font-bold">Job Details</h1>
       <div className="flex text-xl justify-between">
         <div className="space-y-5 w-2/3">
           <p>
@@ -41,11 +45,17 @@ const JobDetail = () => {
             ))}
           </p>
           <p>
+            <b>Requirements:</b>
+            {requirements?.map((jobRes, i) => (
+              <li key={i}>{jobRes}</li>
+            ))}
+          </p>
+          <p>
             <b>Experience:</b> {experience}
           </p>
         </div>
         <div>
-          <div className="bg-blue-100 py-7 px-6 rounded-lg">
+          <div className="bg-[#7e8ffe1e] py-7 px-6 rounded-lg">
             <h2 className="font-bold border-b border-indigo-300 my-4 pb-2">
               Job Details
             </h2>
@@ -77,7 +87,11 @@ const JobDetail = () => {
               </p>
             </div>
           </div>
-          <button className="btn-primary mt-5 w-full h-14">Apply Now</button>
+          <button
+            onClick={() => addToAppliedJobs(id)}
+            className="btn-primary mt-5 w-full h-14">
+            Apply Now
+          </button>
         </div>
       </div>
     </>
