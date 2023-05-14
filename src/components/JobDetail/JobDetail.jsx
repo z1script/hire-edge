@@ -16,9 +16,10 @@ const JobDetail = () => {
 
   const job = jobs.find((element) => element.id === jobDetailId);
 
-  const addToAppliedJobs = (job) => {
+  const addToAppliedJobs = (id) => {
     addToDb(id);
   };
+
   const {
     id,
     title,

@@ -13,3 +13,11 @@
 .hamburger {
   height: 1.5rem;
 }
+
+.navLink:hover {
+  @apply hover:text-green-600;
+}
+
+.navLink:focus {
+  @apply text-indigo-600;
+}

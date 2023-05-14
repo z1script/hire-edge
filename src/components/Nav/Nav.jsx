@@ -36,10 +36,18 @@ const Nav = () => {
             isOpen ? "block" : "hidden"
           }`}>
           <div className="text-xl lg:flex grid lg:gap-5 gap-2 py-2">
-            <Link to="/">Home</Link>
-            <Link to="/statistics">Statistics</Link>
-            <Link to="/applied-jobs">Applied Jobs</Link>
-            <Link to="/blog">Blog</Link>
+            <Link className="navLink" to="/">
+              Home
+            </Link>
+            <Link className="navLink" to="/statistics">
+              Statistics
+            </Link>
+            <Link className="navLink" to="/applied-jobs">
+              Applied Jobs
+            </Link>
+            <Link className="navLink" to="/blog">
+              Blog
+            </Link>
           </div>
           <div>
             <button className="btn-primary">Start Applying</button>
